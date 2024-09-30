@@ -16,4 +16,11 @@
 - Gib hier den Standard ein. Setze kein Passwort. Mit cat musst dir den public-Key des generierten Keys asgeben lassen.
 - Den kopierten Schlüssel fügst du unter Settings --> SSH Keys ein.
 - Der Entwickler erstellt ein Repository auf Github (Profil --> Neues Repo erstellen ...). Er möchte sein lokales Git-Repository mit dem remote-REpository synchronisieren
-- Dazu verwendet er den Befehl `git remote add origin ...` und kann dann nach einem `git push -u origin master` seine lokalen Änderungen pushen   
+- Dazu verwendet er den Befehl `git remote add origin ...` und kann dann nach einem `git push -u origin master` seine lokalen Änderungen pushen.
+- Die anderen Entwickler können sich auch den upstream auf das Repo setzen, wenn sie als Collaborator hinzugefügt werden. Das funktioniert, indem der Entwickler, dem das Repository gehört, auf seinem Repository in Github auf Settings geht und dann unter Collaborators --> Add die Entwickler mit ihren Github-Namen hinzufügt.
+5. Synchronisieren von Änderungen
+- Zum Pushen führe folgenden Befehl aus `git push -u origin master` (einmal, danach reicht ein `git push`)
+- Zum Pullen führe folgenden Befehl aus `git pull (--rebase, dann holen wir uns aktuelle Ändeurngen vom Master-Branch in unseren aktuellen Stand/Branch)
+- Achtung: Wenn zwei Entwickler gleichzeitig an dem Repository arbeiten, dann versuche immer wieder die Änderungen mit zu integrieren --> immer wieder ein git pull --rebase durchführen!
+6. Branching und Feature-Entwicklung
+
