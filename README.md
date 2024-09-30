@@ -23,4 +23,8 @@
 - Zum Pullen führe folgenden Befehl aus `git pull (--rebase, dann holen wir uns aktuelle Ändeurngen vom Master-Branch in unseren aktuellen Stand/Branch)
 - Achtung: Wenn zwei Entwickler gleichzeitig an dem Repository arbeiten, dann versuche immer wieder die Änderungen mit zu integrieren --> immer wieder ein git pull --rebase durchführen!
 6. Branching und Feature-Entwicklung
+- Erstelle einen separaten Branch mit `git branch <neuerBranch>` oder direkt mit `git checkout -b <neuerBranch>` (damit switchen wir direkt auf den Branch
+- Dort kannst du Veränderungen durchführen und musst diese regelmäßig committen.
+- Für die ständige Integration verwende regelmäßig ein `git merge master`, um dir den aktuellen Hauptbranch in den aktuellen Feature-Branch zu ziehen und zu schauen, ob es Konflikte gibt.
+7. Zusammenführen von Branches
 
