@@ -1,4 +1,4 @@
-[200~# Git-Anleitung für Team-Entwickler
+~# Git-Anleitung für Team-Entwickler
 
 # 1. Initialisierung des Projekts mit Git
 
@@ -6,7 +6,7 @@
 
 - Zuerst muss Git auf jedem Rechner installiert werden:
 
-  -[Git installieren (https://git-scm.com/downloads)
+  -Git installieren (https://git-scm.com/downloads)
 
 ## 1.2 Neues Git-Repository initialisieren
 
