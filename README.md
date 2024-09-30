@@ -27,4 +27,5 @@
 - Dort kannst du Veränderungen durchführen und musst diese regelmäßig committen.
 - Für die ständige Integration verwende regelmäßig ein `git merge master`, um dir den aktuellen Hauptbranch in den aktuellen Feature-Branch zu ziehen und zu schauen, ob es Konflikte gibt.
 7. Zusammenführen von Branches
-
+- mit `git checkout master` gehe auf den main-Branch und führe ein `git merge <FeatureBranch>`durch. Wenn Konflikte entstehen, löse die manuell. Wenn du fertig bist, kannst du deinen Stand pushen.
+- Alternativ: Pushe den Feature-Branch auf das Remote Repository und erstelle dort einen Pull Request
